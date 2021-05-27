@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+
+  /*--------------------------------------------HEADER------------------------------------------------------------*/
+header{
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1{
+color: lightsteelblue;
+font-size: 36px;
+font-weight: bold;
+}
+
+header nav{
+margin: 10px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(150, 37, 150);
+  }
+
+
+  #about-me{
+      padding: 150px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #about-me .section-content{
+    width: 70%;
+    padding: 5px 10px;
+  }
+
+  #about-me .section-title{
+      padding: 10px;
+      border-right: lightsteelblue 5px solid;
+  }
