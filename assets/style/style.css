@@ -13,7 +13,7 @@
   /*--------------------------------------------HEADER------------------------------------------------------------*/
 header{
     background-color: black;
-    padding: 20px 40px;
+    padding: 35px 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -33,29 +33,37 @@ header nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(150, 37, 150);
+    text-decoration: none;
   }
 
+  .section-title{
+    padding: 10px 20px 10px 0px;
+    border-right: lightsteelblue 5px solid;
+    width: 15%;
+}
 
-  #about-me{
-      padding: 150px;
-      display: flex;
-      flex-wrap: wrap;
-  }
+#my-work .section-title{
+    color: blue;
+    
+}
 
-  #about-me .section-content{
-    width: 70%;
+  .section-content{
+    width: 80%;
     padding: 5px 10px;
   }
 
-  #about-me .section-title{
-      padding: 10px;
-      border-right: lightsteelblue 5px solid;
-  }
+  #about-me, #my-work, #contact-me{
+    padding: 100px 40px 60px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+ 
