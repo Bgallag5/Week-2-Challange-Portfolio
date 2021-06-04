@@ -189,13 +189,21 @@ opacity: .75;
 }
 
 
-.project-content .second, .third, .fourth, .fifth{
+.project-content .second{
   width: 49%;
-  background-image: url("../images/comingsoonbw.png");
+  background-image: url("../images/workinprogressbarpink.jpeg");
   background-size:contain;
   background-position: center;
   opacity: .75;
   }
+/* I brokke up the second content from the third-fifth  and made it a different image just to show how I would when I have more projects to display */
+  .project-content .third, .fourth, .fifth{
+    width: 49%;
+    background-image: url("../images/workinprogressbar.jpeg");  /*https://www.maillie.com/auditing-work-in-progress source for image */
+    background-size:contain;
+    background-position: center;
+    opacity: .75;
+    }
 
 .hyperspan {
     position:absolute;
