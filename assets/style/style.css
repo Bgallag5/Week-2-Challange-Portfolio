@@ -111,10 +111,10 @@ header nav ul li a {
 /*--------------------------------------------ABOUT ME------------------------------------------------------------*/
 
 #about-me p{
-  color: rgb(44, 8, 41);
+  color: rgb(0, 0, 20);
  display: flex;
  flex-wrap: wrap;
- padding: 20px;
+ padding: 5px 2px;
 }
 
 #about-me img{
@@ -127,6 +127,7 @@ header nav ul li a {
     filter: grayscale(100%); 
     display: flex;
     justify-content: space-between;
+    margin: 0 0 30px 0;
   }
 
 
@@ -314,17 +315,14 @@ width: 100px;
   }
 
   #about-me img{
-    height: 450px;
-    width: 450px;
+    height: 200px;
+    width: 200px;
   }
 
   #about-me p{
-    font-size: 28px;
+    font-size: 22px;
   }
 
-  #about-me h4{
-    font-size: 32px;
-  }
 
   #contact-me .section-content{
     width: 100%;
@@ -348,6 +346,12 @@ header nav ul li a {
 }
 
 @media screen and (max-width: 575px){
-  
+  #about-me img{
+    height: 300px;
+    width: 300px;
+   margin: 10px;
+  }
+
+
   
 }
