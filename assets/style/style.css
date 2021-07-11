@@ -185,15 +185,17 @@ width: 100%;
 min-height: 400px;
 background-image: url("../images/runbuddypic.png");
 background-position:unset;
+object-fit: fill;
 opacity: .75;
 }
 
 
 .project-content .second{
   width: 49%;
-  background-image: url("../images/workinprogressbarpink.jpeg");
-  background-size:contain;
+  background-image: url("../images/findfresh2.png");
+ 
   background-position: center;
+  object-fit:cover;
   opacity: .75;
   }
 /* I brokke up the second content from the third-fifth  and made it a different image just to show how I would when I have more projects to display */
